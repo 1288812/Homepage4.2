@@ -1,11 +1,11 @@
 .element {
     margin: auto;
-    width: 1800px;
-    height: 1080px;
+    width: 1600px;
+    height: 800px;
     resize: both;
-    background-image: url("../image/background.jpeg");
+    background-image: url("../images/background.jpeg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 150px;
+    padding-top: 180px;
 }
