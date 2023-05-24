@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/element.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -20,37 +21,37 @@
 </head>
 
 <body class="body">
-    <main class="main">
-        <form class="js-form form">
-            <fieldset class="form__fieldset">
-                <legend class="form__legend">
-                    <h1> You can count money here</h1>
-                </legend>
-                <p>
-                    <span class="form__labelTex">Write the amount</span>
-                    <label>
-                        <input type="number" required step="0,01" class="js__writeAmount form__field" placeholder="PLN"
-                            min="1" max="1000000" autofocus>
-                    </label>
-                </p>
-                <p>
-                    <span class="form__labelTex">Choose the currency you want to exchange</span>
-                    <label>
-                        <select class="js__select form__field">
-                            <option value="EUR">Euro</option>
-                            <option value="USD">US Dollar</option>
-                            <option value="UAH">Ukraine Hryvnia</option>
-                        </select>
-                    </label>
-                </p>
-
-                <p>
-                    <span class="form__labelTex">Sum:</span>
-                    <span class="js__result form__result"></span>
-                </p>
-
-            </fieldset>
-            <p><button class="form__buttonCount">Count</button></p>
-        </form>
-    </main>
+    <div class="element">
+        <main class="main">
+            <form class="js-form form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">
+                        <h1> You can count money here</h1>
+                    </legend>
+                    <p>
+                        <span class="form__labelTex">Write the amount</span>
+                        <label>
+                            <input type="number" required step="0,01" class="js__writeAmount form__field"
+                                placeholder="PLN" min="1" max="1000000" autofocus>
+                        </label>
+                    </p>
+                    <p>
+                        <span class="form__labelTex">Choose the currency you want to exchange</span>
+                        <label>
+                            <select class="js__select form__field">
+                                <option value="EUR">Euro</option>
+                                <option value="USD">US Dollar</option>
+                                <option value="UAH">Ukraine Hryvnia</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <span class="form__labelTex">Sum:</span>
+                        <span class="js__result form__result"></span>
+                    </p>
+                </fieldset>
+                <p><button class="form__buttonCount">Count</button></p>
+            </form>
+        </main>
+    </div>
 </body>
