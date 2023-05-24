@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca domova</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <main class="main">
+        <form class="js-form form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    <h1> You can count money here</h1>
+                </legend>
+                <p>
+                    <span class="form__labelTex">Write the amount</span>
+                    <label>
+                        <input type="number" required step="0,01" class="js__writeAmount form__field" placeholder="PLN"
+                            min="1" max="1000000" autofocus>
+                    </label>
+                </p>
+                <p>
+                    <span class="form__labelTex">Choose the currency you want to exchange</span>
+                    <label>
+                        <select class="js__select form__field">
+                            <option value="EUR">Euro</option>
+                            <option value="USD">US Dollar</option>
+                            <option value="UAH">Ukraine Hryvnia</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p>
+                    <span class="form__labelTex">Sum:</span>
+                    <span class="js__result form__result"></span>
+                </p>
+
+            </fieldset>
+            <p><button class="form__buttonCount">Count</button></p>
+        </form>
+    </main>
+</body>

@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: aqua;
+}
+
+.main {
+    max-width: 800px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 0px #17D62D;
+}
