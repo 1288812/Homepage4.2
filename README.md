@@ -1,11 +1,11 @@
 # Home work N4.2
-## Opis
+## Description
 
-### wersja demonstracyjna kalkulatora walut
+### currency calculator demo
 
-[kliknij, aby przejść do strony] 
+[click to go to the page] 
 
-##### Wersja demonstracyjna, ponieważ dostępne są obliczenia tylko dla trzech walut. Wpisując kwotę w złotych można otrzymać kwotę w EURO DOLARACH lub HRYVNYA
+##### Demo version as calculations are available for only three currencies. By entering the amount in PLN, you can receive the amount in EURO DOLLARS or HRYVNYA
 
 ![screen strony](https://github.com/1288812/Homepage4.2/blob/main/images/S%D1%81reen.png?raw=true)
 
@@ -16,4 +16,4 @@
 
 
 
-[kliknij, aby przejść do strony]: <https://1288812.github.io/Homepage4.2/>
+[click to go to the page]: <https://1288812.github.io/Homepage4.2/>
