@@ -21,3 +21,10 @@ html {
     box-shadow: 0px 0px 10px 0px #17D62D;
     margin: auto;
 }
+
+.main__elementForm {
+    background-image: url("../images/us-100-dollar-bills.png");
+    background-size: cover;
+    background-position: center;
+
+}
