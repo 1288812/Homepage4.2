@@ -1,5 +1,7 @@
 # Home work N4.2
-## wersja demonstracyjna kalkulatora walut
+## Opis
+
+### wersja demonstracyjna kalkulatora walut
 
 [kliknij, aby przejść do strony] 
 
